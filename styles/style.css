@@ -1,0 +1,148 @@
+/* universal Style */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Shared Style */
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: 90%;
+  margin: 0px auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 17px 34px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.green-bg {
+  background-color: rgba(198, 228, 214, 1);
+}
+.blue-bg{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+.yellow-bg{
+    background-color:rgba(247, 235, 207, 1);
+}
+.white-bg{
+    background-color: #FFFFFF;
+}
+
+.color-green{
+background-color: rgba(9, 161, 92, 1);
+}
+.color-blue{
+background-color: rgba(84, 144, 245, 1);
+}
+.color-yellow{
+background-color: rgba(255, 194, 57, 1);
+}
+
+.sub-title{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin:  12px 0px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+/* top bar */
+.nav-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 0px;
+}
+
+.main-logo {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0e0e0e;
+}
+
+.sign-in-btn {
+  color: #006a50;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #006a50;
+  border-radius: 10px;
+}
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px;
+  background-color: #c6e4d6;
+  border-radius: 15px;
+  align-items: center;
+  padding: 60px;
+  margin-bottom: 80px;
+}
+
+.memorial {
+  max-width: 470px;
+}
+
+.hero-info {
+  max-width: 622px;
+}
+
+.hero-sub-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 600;
+}
+.hero-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 56px;
+  font-weight: 800;
+  text-align: left;
+}
+
+/* Pillars Section */
+.section-title {
+  color: #0E0E0E;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.pillar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    gap: 24px;
+
+}
+
+.pillar-card{
+    border-radius: 10px;
+    padding: 24px;
+    
+}
+
+.pillar-details{
+    margin-top: 24px;
+}
