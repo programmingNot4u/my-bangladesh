@@ -31,36 +31,36 @@ a {
 .green-bg {
   background-color: rgba(198, 228, 214, 1);
 }
-.blue-bg{
-    background-color:rgba(84, 144, 245, 0.2);
+.blue-bg {
+  background-color: rgba(84, 144, 245, 0.2);
 }
-.yellow-bg{
-    background-color:rgba(247, 235, 207, 1);
+.yellow-bg {
+  background-color: rgba(247, 235, 207, 1);
 }
-.white-bg{
-    background-color: #FFFFFF;
-}
-
-.color-green{
-background-color: rgba(9, 161, 92, 1);
-}
-.color-blue{
-background-color: rgba(84, 144, 245, 1);
-}
-.color-yellow{
-background-color: rgba(255, 194, 57, 1);
+.white-bg {
+  background-color: #ffffff;
 }
 
-.sub-title{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-    margin:  12px 0px;
+.color-green {
+  background-color: rgba(9, 161, 92, 1);
+}
+.color-blue {
+  background-color: rgba(84, 144, 245, 1);
+}
+.color-yellow {
+  background-color: rgba(255, 194, 57, 1);
 }
 
-.card-title{
-    font-size: 20px;
-    font-weight: 800;
-    color: rgba(14, 14, 14, 0.8);
+.sub-title {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px 0px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(14, 14, 14, 0.8);
 }
 
 /* top bar */
@@ -121,28 +121,105 @@ background-color: rgba(255, 194, 57, 1);
 
 /* Pillars Section */
 .section-title {
-  color: #0E0E0E;
+  color: #0e0e0e;
   font-size: 40px;
   font-weight: 800;
   text-align: left;
 }
-
-.pillar-items{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 32px;
-    margin-bottom: 80px;
-    gap: 24px;
-
+.pillars-section {
+  margin-bottom: 92px;
+}
+.pillar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  gap: 24px;
 }
 
-.pillar-card{
-    border-radius: 10px;
-    padding: 24px;
+.pillar-card {
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.pillar-details {
+  margin-top: 24px;
+}
+
+/* opinion-section  */
+
+.opinion-section {
+  margin-top: 80px;
+}
+.opinion-table {
+
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+margin-top: 24px;
+  width: 90%;
+ 
+
+}
+table {
+  border-collapse: collapse;
+}
+thead {
+  background-color: #c6e4d6;
+  color: rgba(14, 14, 14, 1);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 24px;
+}
+th:first-child {
+  border-right: 1px solid rgba(14, 14, 14, 0.15);
+}
+td:first-child {
+  border-right: 1px solid rgba(14, 14, 14, 0.15);
+}
+tbody tr {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+td select {
+  padding: 12px 50px;
+  background-color: rgba(198, 228, 214, 1);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-size: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.opinion-container {
+  background-color: white;
+
+  border-radius: 10px;
+}
+
+
+/* News section */
+.news-continer{
+    margin-top: 80px;
+}
+.news-card{
+    display: flex;
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 20px;
+    padding-bottom: 48px;
+    margin-bottom: 24px;
+}
+.news-info{
+    max-width: 744px;
     
 }
-
-.pillar-details{
-    margin-top: 24px;
+.news-card img{
+    max-width: 408px;
+    border-radius: 20px;
 }
