@@ -124,7 +124,6 @@ a {
   color: #0e0e0e;
   font-size: 40px;
   font-weight: 800;
-  text-align: left;
 }
 .pillars-section {
   margin-bottom: 92px;
@@ -153,18 +152,16 @@ a {
   margin-top: 80px;
 }
 .opinion-table {
-
-  margin: 0px auto;
+  width: 100%;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
-margin-top: 24px;
-  width: 90%;
- 
-
+  margin-top: 24px;
 }
 table {
+  width: 100%;
   border-collapse: collapse;
+  margin: 0px auto;
 }
 thead {
   background-color: #c6e4d6;
@@ -191,7 +188,7 @@ td select {
   background-color: rgba(198, 228, 214, 1);
   color: rgba(14, 14, 14, 1);
   font-size: 16px;
-  font-size: 500;
+  font-weight: 500;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -201,25 +198,121 @@ td select {
   border-radius: 10px;
 }
 
-
 /* News section */
-.news-continer{
-    margin-top: 80px;
+.news-continer {
+  margin-top: 80px;
 }
-.news-card{
-    display: flex;
-    gap: 32px;
-    background-color: white;
-    padding: 48px;
-    border-radius: 20px;
-    padding-bottom: 48px;
-    margin-bottom: 24px;
+.news-card {
+  display: flex;
+  gap: 32px;
+  background-color: white;
+  padding: 48px;
+  border-radius: 20px;
+  padding-bottom: 48px;
+  margin-bottom: 24px;
 }
-.news-info{
-    max-width: 744px;
-    
+
+.news-card img {
+  max-width: 408px;
+  border-radius: 20px;
 }
-.news-card img{
-    max-width: 408px;
-    border-radius: 20px;
+
+/* Donet options */
+
+.donate-container {
+  text-align: center;
+  max-width: 70%;
+  margin: 80px auto;
+}
+
+.money-options {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.money {
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.74);
+  font-size: 40px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.amount-input {
+  width: 90%;
+  padding: 18px 40px;
+  text-align: center;
+  margin: 32px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* newsletter section */
+.newsletter-section {
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+.newsletter-container {
+  padding: 80px;
+  margin: 0px auto;
+  text-align: center;
+  max-width: 750px;
+}
+
+.sub-input-container {
+  width: 100%;
+  position: relative;
+  border-bottom: 24px;
+}
+.sub-input-container input[type="email"] {
+  width: 90%;
+  padding: 18px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.sub-btn {
+  position: absolute;
+  padding: 18px 34px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  top: 0;
+
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* footer  Section*/
+footer{
+  background-color: white;
+  padding: 50px;
+}
+.footer-container {
+  max-width: 70%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.social-media {
+  text-align: center;
+  margin: 0px auto;
+}
+.social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.divider{
+  margin: 32px;
+  color: rgb(226, 223, 223);
 }
